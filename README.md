@@ -16,3 +16,7 @@ Some examples:
 
 # Usage
 Just feed to this guy two images. More detailed example of usage shown in main file as well. I also recommend you to play with content_weight and style_weight.
+
+
+
+I did it with [xxxMAnDARAxxx](https://github.com/HeadNeck)
