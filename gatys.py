@@ -50,7 +50,7 @@ class Gatys:
         return loss, style_score, content_score
 
 
-    def transfer(self, img, img_style, num_iterations=100, content_weight=1, style_weight=1):
+    def transfer(self, img, img_style, num_iterations=10, content_weight=1, style_weight=1):
         # Preprocessing
         x_img = keras.applications.vgg16.preprocess_input(np.expand_dims(img, axis=0))
         x_style = keras.applications.vgg16.preprocess_input(np.expand_dims(img_style, axis=0))
