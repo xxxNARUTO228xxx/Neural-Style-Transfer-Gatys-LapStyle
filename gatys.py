@@ -107,9 +107,9 @@ class Gatys:
             if loss < best_loss:
                 # Update best loss and best image from total loss.
                 best_loss = loss
-                best_img = deprocess_img(init_image.numpy())
 
             print('Iteration: {}'.format(i), loss)
+        best_img = deprocess_img(init_image.numpy())
 
         print(best_loss)
         return best_img
