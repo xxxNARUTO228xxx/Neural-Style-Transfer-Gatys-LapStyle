@@ -17,11 +17,11 @@ def deprocess_img(processed_img):
 
 class Gatys:
     def gram_matrix(self, input_tensor):
+        def gram_matrix(input_tensor):
         channels = int(input_tensor.shape[-1])
         a = tf.reshape(input_tensor, [-1, channels])
-        n = tf.shape(a)[0]
         gram = tf.matmul(a, a, transpose_a=True)
-        return gram / tf.cast(n, tf.float32)
+        return gram
 
 
     def compute_loss(self, init_image):
