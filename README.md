@@ -1,4 +1,10 @@
 # Neural-Style-Transfer-Gatys
+**References**
+
+Neural Style Transfer Gatys: https://arxiv.org/pdf/1508.06576.pdf
+
+LapStyle: https://arxiv.org/pdf/1707.01253.pdf (in Gatys.ipynb)
+
 **Example:**
 
 Style we want to use
